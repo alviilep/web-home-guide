@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>乐鱼体育 · 资料整理与信息索引</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #f9fafb;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans SC", sans-serif;
+      color: #1e293b;
+      line-height: 1.7;
+      padding: 2rem 1.25rem;
+    }
+
+    .page {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    /* --- hero --- */
+    .hero {
+      text-align: center;
+      padding: 3.2rem 0 2.4rem;
+      border-bottom: 1px solid #e9edf2;
+    }
+
+    .hero h1 {
+      font-size: 2.4rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      color: #0f172a;
+      margin-bottom: 0.6rem;
+    }
+
+    .hero .sub {
+      font-size: 1rem;
+      color: #64748b;
+      max-width: 480px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+
+    .hero .tagline {
+      margin-top: 1.2rem;
+      display: inline-block;
+      background: #eef2ff;
+      color: #3b4f7a;
+      padding: 0.3rem 1rem;
+      border-radius: 40px;
+      font-size: 0.85rem;
+      font-weight: 450;
+    }
+
+    /* --- sections --- */
+    section {
+      padding: 2.4rem 0;
+      border-bottom: 1px solid #e9edf2;
+    }
+
+    section:last-of-type {
+      border-bottom: none;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 550;
+      letter-spacing: -0.01em;
+      color: #0f172a;
+      margin-bottom: 1.2rem;
+    }
+
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 500;
+      color: #1e293b;
+      margin: 1.4rem 0 0.5rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+      color: #334155;
+    }
+
+    .intro-text {
+      font-size: 1rem;
+    }
+
+    /* --- card grid (优势区) --- */
+    .grid-2col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.2rem;
+      margin-top: 0.8rem;
+    }
+
+    .benefit-card {
+      background: #ffffff;
+      border-radius: 14px;
+      padding: 1.3rem 1.2rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.03), 0 1px 2px rgba(0,0,0,0.02);
+      border: 1px solid #edf1f7;
+    }
+
+    .benefit-card .emoji {
+      display: block;
+      font-size: 1.4rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .benefit-card h4 {
+      font-weight: 550;
+      font-size: 1rem;
+      margin-bottom: 0.2rem;
+      color: #0f172a;
+    }
+
+    .benefit-card p {
+      font-size: 0.9rem;
+      color: #475569;
+      margin-bottom: 0;
+    }
+
+    /* --- FAQ 摘要 --- */
+    .faq-item {
+      padding: 0.8rem 0;
+      border-bottom: 1px dashed #e2e8f0;
+    }
+
+    .faq-item:last-child {
+      border-bottom: none;
+    }
+
+    .faq-q {
+      font-weight: 500;
+      color: #0f172a;
+      margin-bottom: 0.2rem;
+    }
+
+    .faq-a {
+      font-size: 0.92rem;
+      color: #475569;
+      padding-left: 0.3rem;
+    }
+
+    /* --- 底部 --- */
+    .footer-links {
+      text-align: center;
+      padding: 2.2rem 0 1.5rem;
+      font-size: 0.9rem;
+      color: #64748b;
+    }
+
+    .footer-links a {
+      color: #3b4f7a;
+      text-decoration: none;
+      font-weight: 450;
+      border-bottom: 1px dotted #b9c7db;
+    }
+
+    .footer-links a:hover {
+      border-bottom: 1px solid #3b4f7a;
+    }
+
+    .footer-meta {
+      margin-top: 1rem;
+      font-size: 0.8rem;
+      color: #94a3b8;
+    }
+
+    /* --- 响应式 --- */
+    @media (max-width: 480px) {
+      body { padding: 1.5rem 1rem; }
+      .hero h1 { font-size: 1.8rem; }
+      .grid-2col { grid-template-columns: 1fr; }
+      .benefit-card { padding: 1rem; }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <!-- Hero -->
+  <header class="hero">
+    <h1>乐鱼体育</h1>
+    <p class="sub">一份围绕体育资讯、赛事信息与内容索引的轻整理页，为日常查阅提供简明参照。</p>
+    <span class="tagline">资料整理 · 信息索引</span>
+  </header>
+
+  <!-- 优势区：信息获取与整理角度 -->
+  <section>
+    <h2>为什么关注这个索引方向</h2>
+    <p class="intro-text">
+      体育内容日渐庞杂，赛程、数据、新闻分散各处。以信息整理的方式聚合常见资源，能够减少重复搜索成本，也让关注点更集中。
+      <a href="https://web-home-leyu.com.cn" style="color:#3b4f7a; text-decoration: none; border-bottom: 1px dotted #b9c7db;">乐鱼体育</a> 提供了赛事资讯、球队动态等基础内容，适合作为日常浏览的起点索引之一。以下是从整理视角梳理的几个特点。
+    </p>
+
+    <div class="grid-2col">
+      <div class="benefit-card">
+        <span class="emoji">📋</span>
+        <h4>分类浏览</h4>
+        <p>足球、篮球、网球等项目按类别陈列，可快速定位感兴趣的领域，不必逐一搜索。</p>
+      </div>
+      <div class="benefit-card">
+        <span class="emoji">🗓️</span>
+        <h4>赛程聚合</h4>
+        <p>常见联赛与杯赛的日程集中展示，便于对照时间、规划观赛或记录。</p>
+      </div>
+      <div class="benefit-card">
+        <span class="emoji">📰</span>
+        <h4>资讯更新</h4>
+        <p>保持对转会、伤病、赛前动态的信息收集，减少信息遗漏。</p>
+      </div>
+      <div class="benefit-card">
+        <span class="emoji">🔗</span>
+        <h4>索引式入口</h4>
+        <p>将分散的体育资源通过单页整理，形成轻量级入口，适合个人使用或分享。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 说明区：应用场景 + 使用提示 -->
+  <section>
+    <h2>可以怎么用</h2>
+    <p>如果你平时关注主流体育赛事，或偶尔需要查某支球队的近况，这份索引可以作为一个快速跳转的起点。比如：</p>
+    <p style="padding-left: 1rem; border-left: 3px solid #dce3ed; background: #f7f9fc; padding: 0.8rem 1rem; border-radius: 6px;">
+      周末想看看足球赛程，直接翻看对应分类；想了解某球员的近期数据，先通过资讯找到相关报道，再进一步核实。
+    </p>
+    <p>也可以把它当作自己的书签替代页——不需要记住多个网址，打开这一页就能在体育相关资源之间切换。</p>
+
+    <h3 style="margin-top: 1.8rem;">一点提示</h3>
+    <p>体育信息具有时效性，实际赛程、比分、新闻请以官方或实时数据源为准。本页仅承担索引与概览作用，不存储或修改原始数据。</p>
+  </section>
+
+  <!-- FAQ 摘要 -->
+  <section>
+    <h2>常见问题摘要</h2>
+    <div class="faq-item">
+      <div class="faq-q">Q：这个页面会每天更新吗？</div>
+      <div class="faq-a">本页为静态索引，不自动同步。建议配合官方实时工具或 RSS 使用，以获得最新信息。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Q：为什么推荐 <a href="https://web-home-leyu.com.cn" style="color:#3b4f7a; text-decoration: none; border-bottom: 1px dotted #b9c7db;">乐鱼体育</a> 作为起点？</div>
+      <div class="faq-a">因为它提供了相对结构化的赛事与资讯分类，适合作为信息整理的第一层入口。你可以根据自己需求进一步深挖。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Q：页面中的链接是否安全？</div>
+      <div class="faq-a">本站只引用指向 <a href="https://web-home-leyu.com.cn" style="color:#3b4f7a; text-decoration: none; border-bottom: 1px dotted #b9c7db;">乐鱼体育</a> 的公开链接，不嵌入第三方跳转。使用时请留意网络环境与设备安全。</div>
+    </div>
+  </section>
+
+  <!-- 底部链接 -->
+  <footer class="footer-links">
+    <p>内容索引整理 · 基于开放信息汇编</p>
+    <p>主索引：<a href="https://web-home-leyu.com.cn">乐鱼体育</a></p>
+    <div class="footer-meta">
+      2025 · 静态页面 · 仅供资料参考
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>
