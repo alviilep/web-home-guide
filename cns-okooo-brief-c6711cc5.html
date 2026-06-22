@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5">
+  <title>了解 okooo · 一个可以快速确认的站点</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background: #fafafa;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.7;
+      color: #1e1e1e;
+      padding: 2.5rem 1.25rem;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .page-wrap {
+      max-width: 680px;
+      width: 100%;
+    }
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+      margin: 1.6rem 0 0.4rem 0;
+      color: #111;
+    }
+    h2 {
+      font-size: 1.3rem;
+      font-weight: 450;
+      margin-top: 2.2rem;
+      margin-bottom: 0.75rem;
+      border-bottom: 1px solid #eaeaea;
+      padding-bottom: 0.25rem;
+      color: #222;
+    }
+    p {
+      margin-bottom: 1.25rem;
+      font-size: 1rem;
+      color: #2c2c2c;
+    }
+    .opening {
+      font-size: 1.1rem;
+      background: #ffffff;
+      padding: 0.8rem 1.2rem;
+      border-radius: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+      border: 1px solid #ececec;
+      margin: 1.2rem 0 1.4rem 0;
+      color: #1f1f1f;
+    }
+    .feature-list {
+      list-style: none;
+      margin: 1.8rem 0 2rem 0;
+    }
+    .feature-list li {
+      padding: 0.9rem 0 0.9rem 1.8rem;
+      position: relative;
+      border-bottom: 1px dotted #e4e4e4;
+      font-size: 1rem;
+    }
+    .feature-list li::before {
+      content: "·";
+      position: absolute;
+      left: 0.2rem;
+      color: #888;
+      font-weight: 700;
+      font-size: 1.4rem;
+      line-height: 1;
+    }
+    .scenario-note {
+      background: #f7f7f9;
+      padding: 1.2rem 1.5rem;
+      border-radius: 24px;
+      margin: 2rem 0 1.2rem 0;
+      border: 1px solid #eee;
+    }
+    .scenario-note p {
+      margin-bottom: 0.6rem;
+    }
+    .faq-mini {
+      margin-top: 2.4rem;
+      padding: 0 0.2rem;
+    }
+    .faq-mini dt {
+      font-weight: 500;
+      margin-top: 1.1rem;
+      margin-bottom: 0.2rem;
+      color: #1f1f1f;
+    }
+    .faq-mini dd {
+      margin-left: 0;
+      color: #3f3f3f;
+      padding-left: 0.2rem;
+    }
+    .gentle-closing {
+      margin-top: 2.8rem;
+      padding-top: 1.2rem;
+      border-top: 1px solid #e6e6e6;
+      font-size: 0.96rem;
+      color: #4a4a4a;
+    }
+    a {
+      color: #1d5096;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.15s ease;
+    }
+    a:hover, a:focus {
+      border-bottom-color: #1d5096;
+      outline: none;
+    }
+    .inline-link {
+      font-weight: 450;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #eaeaea;
+      margin: 2.2rem 0 1.2rem;
+    }
+    @media (max-width: 480px) {
+      body {
+        padding: 1.5rem 1rem;
+      }
+      h1 {
+        font-size: 1.8rem;
+      }
+      .opening {
+        padding: 0.7rem 1rem;
+        font-size: 1rem;
+      }
+      .feature-list li {
+        padding-left: 1.4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="page-wrap">
+  <h1>当你想快速确认一个网站</h1>
+
+  <div class="opening">
+    <p>有些时候，你只是想快速知道一个地址对应什么、是否可靠、提供什么。不是漫无目的的搜索，而是带着一个具体的名字——比如有人提到 <strong>okooo</strong>，你打算亲自看一眼。</p>
+  </div>
+
+  <p>你的第一个动作很可能是直接输入域名。这个动作背后是对效率的本能选择：不想经过一层又一层导航、不想被弹窗干扰、不想等加载完大量装饰内容。你期望页面本身是在认真回答“这是什么”。</p>
+
+  <p><a href="https://cns-okooo.com" class="inline-link">okooo</a> 就是这样一个可以让你快速确认名字与内容对应关系的网站。它的首页不会试图用满屏图片抓住你，而是把空间留给文字与结构——你可以通过浏览标题和段落，几秒内判断它是否与你关心的方向有关。</p>
+
+  <h2>几个能帮你定位的特点</h2>
+  <ul class="feature-list">
+    <li><strong>名称即入口</strong>——域名本身就是最直接的标识，你输入它，它呈现自己。</li>
+    <li><strong>内容结构清晰</strong>——区块之间有明显的功能划分，不用猜测下一段在说什么。</li>
+    <li><strong>没有多余的装饰层</strong>——页面加载后信息立刻可见，不需要关闭遮盖层或等待动画结束。</li>
+    <li><strong>适合回头确认</strong>——如果你之前听说过这个名字，回来时依然能找到你关注的核心段落。</li>
+  </ul>
+
+  <div class="scenario-note">
+    <p><strong>一个常见场景</strong><br>
+    你在聊天或文章里看到某个网站名称，想快速确认它是否跟某个话题有关。你打开它，目光扫过标题、列表和一段说明，心里就有了判断。整个过程不到十秒，而且不需要登录或注册。</p>
+    <p>这种体验背后的设计选择是：把信息放在前面，把复杂性留给后台。</p>
+  </div>
+
+  <dl class="faq-mini">
+    <dt>这个网站主要提供什么？</dt>
+    <dd>浏览首页的内容分类和介绍段落，可以了解它侧重哪些方向。不同区块有明确的标题，帮助你快速定位兴趣点。</dd>
+    <dt>为什么我看到的页面很简洁？</dt>
+    <dd>极简的布局能让注意力集中在文字信息上，避免被视觉元素分散。同时窄正文宽度也提高了长段落的可读性。</dd>
+    <dt>以后内容会变吗？</dt>
+    <dd>网站会更新，但一贯的风格是保持清晰的信息层级和克制的视觉语言，不会突然变成堆砌式的页面。</dd>
+  </dl>
+
+  <div class="gentle-closing">
+    <p>如果你还在犹豫值不值得花时间深入浏览，不妨先把 <a href="https://cns-okooo.com">okooo</a> 记在标签页里。它不会跑掉，也不会在你回来时变成一个完全陌生的页面。有时候，一个网站最好的自我介绍就是：你进来一看，就知道该不该继续往下翻。</p>
+    <p style="margin-top:0.8rem; color:#6b6b6b;">—— 基于第一次访问的直觉，就够了。</p>
+  </div>
+
+  <hr>
+  <p style="font-size:0.85rem; color:#7c7c7c; text-align:right;">— 页面方向：故事叙述式 · 极简留白 · 宽裕行距 —</p>
+</div>
+</body>
+</html>
